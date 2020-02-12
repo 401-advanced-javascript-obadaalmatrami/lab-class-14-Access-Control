@@ -2,9 +2,10 @@
   "name": "lab-class-14-Access-Control",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage --watch-All",
+    "start": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,15 @@
   },
   "homepage": "https://github.com/401-advanced-javascript-obadaalmatrami/lab-class-14-Access-Control#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
-    "jest": "^25.1.0"
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb-memory-server": "^6.2.4",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
   }
 }
