@@ -4,8 +4,8 @@ LAB - Class 14
 Project (ACL) 
 Author: Obada 
 Links and Resources submission PR 
-(https://github.com/401-advanced-javascript-obadaalmatrami/Lab-13-Bearer-Authorization/pull/2) 
-ci/cd (https://github.com/401-advanced-javascript-obadaalmatrami/Lab-13-Bearer-Authorization/actions)
+(https://github.com/401-advanced-javascript-obadaalmatrami/lab-class-14-Access-Control/pull/2) 
+ci/cd (https://github.com/401-advanced-javascript-obadaalmatrami/lab-class-14-Access-Control/actions)
 
 .env requirements (where applicable)
 PORT=3000
